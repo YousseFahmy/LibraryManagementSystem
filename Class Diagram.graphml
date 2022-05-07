@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 2.5-alpha4-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:demostyle2="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/2.0" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:VuejsNodeStyle="http://www.yworks.com/demos/yfiles-vuejs-node-style/1.0" xmlns:explorer-style="http://www.yworks.com/data-explorer/1.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="int" attr.name="zOrder" y:attr.uri="http://www.yworks.com/xml/yfiles-z-order/1.0/zOrder"/>
+	<key id="d1" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d2" for="node" attr.type="string" attr.name="url"/>
+	<key id="d3" for="node" attr.type="string" attr.name="description"/>
+	<key id="d4" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d5" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d6" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d7" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d8" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d10" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d11" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d12" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d13" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d14" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d15" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d16" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d18" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d19" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d19">
+		<y:SharedData>
+			<yjs:SolidColorFill x:Key="1" color="#FFFF5722"/>
+			<yjs:SolidColorFill x:Key="2" color="#FFA3F1BB"/>
+			<yjs:SolidColorFill x:Key="3" color="#FF607D8B"/>
+			<yjs:SolidColorFill x:Key="4" color="#FFA3F1BB"/>
+			<yjs:SolidColorFill x:Key="5" color="#FF607D8B"/>
+			<yjs:SolidColorFill x:Key="6" color="#FFA3F1BB"/>
+			<yjs:Arrow x:Key="7" type="TRIANGLE" stroke="#FF000000" fill="#FFFFFFFF"/>
+			<yjs:Stroke x:Key="8" fill="#FF000000"/>
+			<yjs:Stroke x:Key="9" fill="#FF000000"/>
+			<yjs:PolylineEdgeStyle x:Key="10" stroke="{y:GraphMLReference 9}" targetArrow="{y:GraphMLReference 15}"/>
+			<yjs:PolylineEdgeStyle x:Key="11" sourceArrow="{y:GraphMLReference 7}">
+				<yjs:PolylineEdgeStyle.stroke>
+					<yjs:Stroke fill="#FF000000" dashStyle="Dash"/>
+				</yjs:PolylineEdgeStyle.stroke>
+			</yjs:PolylineEdgeStyle>
+			<yjs:Stroke x:Key="12" fill="#FF000000"/>
+			<yjs:Arrow x:Key="13" type="TRIANGLE" stroke="{y:GraphMLReference 12}" fill="#FFFFFFFF"/>
+			<yjs:PolylineEdgeStyle x:Key="14" stroke="{y:GraphMLReference 12}" sourceArrow="{y:GraphMLReference 13}"/>
+			<yjs:Arrow x:Key="15" stroke="{y:GraphMLReference 9}" fill="#FF000000"/>
+			<yjs:PolylineEdgeStyle x:Key="16" stroke="{y:GraphMLReference 9}" targetArrow="{y:GraphMLReference 15}"/>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d6">
+			<y:Json>{"version":"2.0.0","theme":{"name":"light","version":"1.0.0"}}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d0">2</data>
+			<data key="d5">
+				<y:RectD X="61.62720717008642" Y="813.625" Width="132.74558565982707" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Student" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>studentId</sys:String>
+									<sys:String>major</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n1">
+			<data key="d0">3</data>
+			<data key="d5">
+				<y:RectD X="230.61351811453198" Y="813.625" Width="154.7729637709361" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="FacultyMember" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>facultyMemberId</sys:String>
+									<sys:String>faculty</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n2">
+			<data key="d0">4</data>
+			<data key="d5">
+				<y:RectD X="-174.17584036844676" Y="405" Width="234.8679769507536" Height="172"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="#FFA3F1BB">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Administrator" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>addBook()</sys:String>
+									<sys:String>seeCurrentlyBorrowedBooks()</sys:String>
+									<sys:String>seeCurrentlyOverdueBooks()</sys:String>
+									<sys:String>searchUser(criteria)</sys:String>
+									<sys:String>createNewAdminAccount()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n3">
+			<data key="d0">5</data>
+			<data key="d5">
+				<y:RectD X="-80.75" Y="80.75" Width="256" Height="284"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="abstract" constraint="" className="SystemUser" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>username</sys:String>
+									<sys:String>accountCreationDate</sys:String>
+									<sys:String>firstName</sys:String>
+									<sys:String>lastName</sys:String>
+									<sys:String>systemUserId</sys:String>
+									<sys:String>phoneNumber</sys:String>
+									<sys:String>email</sys:String>
+									<sys:String>databaseFacade</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>logIn()</sys:String>
+									<sys:String>logOut()</sys:String>
+									<sys:String>searchBook(criteria)</sys:String>
+									<sys:String>editInfo()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2"/>
+		</node>
+		<node id="n4">
+			<data key="d0">6</data>
+			<data key="d5">
+				<y:RectD X="107.25" Y="405" Width="213.5" Height="364"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="abstract" constraint="" className="Borrower" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>borrowedBooks</sys:String>
+									<sys:String>notifyList</sys:String>
+									<sys:String>maxBorrowPeriod</sys:String>
+									<sys:String>overdueFine</sys:String>
+									<sys:String>heldBooks</sys:String>
+									<sys:String>maxBorrowLimit</sys:String>
+									<sys:String>accountBlocked</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>borrow(book)</sys:String>
+									<sys:String>return(book)</sys:String>
+									<sys:String>renew(book)</sys:String>
+									<sys:String>hold(book)</sys:String>
+									<sys:String>addToNotifyList(book)</sys:String>
+									<sys:String>payFine(amount)</sys:String>
+									<sys:String>seeHistory()</sys:String>
+									<sys:String>blockAccount()</sys:String>
+									<sys:String>unblockAccount()</sys:String>
+									<sys:String>isBlocked()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2"/>
+			<port name="p3"/>
+			<port name="p4"/>
+		</node>
+		<node id="n5">
+			<data key="d0">7</data>
+			<data key="d5">
+				<y:RectD X="601.59375" Y="572.875" Width="188.27407905389776" Height="172"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="abstract" constraint="" className="Book" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>isbn</sys:String>
+									<sys:String>title</sys:String>
+									<sys:String>author</sys:String>
+									<sys:String>pageCount</sys:String>
+									<sys:String>edition</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2"/>
+		</node>
+		<node id="n6">
+			<data key="d0">8</data>
+			<data key="d5">
+				<y:RectD X="551.96875" Y="771.625" Width="125" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Textbook" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>subjectName</sys:String>
+									<sys:String>subjectCode</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n7">
+			<data key="d0">9</data>
+			<data key="d5">
+				<y:RectD X="711.21875" Y="771.625" Width="125" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Reference Book" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>field</sys:String>
+									<sys:String>type</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n8">
+			<data key="d0">10</data>
+			<data key="d5">
+				<y:RectD X="908.1875" Y="572.875" Width="174.25" Height="172"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Journal" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>publicationDate</sys:String>
+									<sys:String>volume</sys:String>
+									<sys:String>title</sys:String>
+									<sys:String>issue</sys:String>
+									<sys:String>field</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n9">
+			<data key="d0">12</data>
+			<data key="d5">
+				<y:RectD X="749.6772036582688" Y="-24.75" Width="190.16967173736018" Height="252"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Catalogue" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>numberOfCopies</sys:String>
+									<sys:String>availableAmount</sys:String>
+									<sys:String>location</sys:String>
+									<sys:String>cataloguedItem</sys:String>
+									<sys:String>databaseMediator</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>take()</sys:String>
+									<sys:String>return()</sys:String>
+									<sys:String>hasAvailable()</sys:String>
+									<sys:String>getLocation()</sys:String>
+									<sys:String>changeLocation(newLocation)</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+		</node>
+		<node id="n10">
+			<data key="d0">13</data>
+			<data key="d3"><![CDATA[]]></data>
+			<data key="d5">
+				<y:RectD X="-59.5" Y="-163.5" Width="213.5" Height="204"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="DatabaseFacade" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>instance</sys:String>
+									<sys:String>database</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>getInstance()</sys:String>
+									<sys:String>search(criteria)</sys:String>
+									<sys:String><![CDATA[update(oldCriteria, newCriteria)]]></sys:String>
+									<sys:String>remove(criteria)</sys:String>
+									<sys:String>add(criteria)</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2"/>
+			<port name="p3"/>
+			<port name="p4"/>
+		</node>
+		<node id="n11">
+			<data key="d0">14</data>
+			<data key="d5">
+				<y:RectD X="-473.25" Y="7.25" Width="174.25" Height="92"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="abstract" constraint="" className="Criteria" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2"/>
+		</node>
+		<node id="n12">
+			<data key="d0">15</data>
+			<data key="d5">
+				<y:RectD X="-635.75" Y="354" Width="125" Height="156"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="BookCriteria" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>isbn</sys:String>
+									<sys:String>title</sys:String>
+									<sys:String>author</sys:String>
+									<sys:String>edition</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.003496503496503489"/>
+				</data>
+			</port>
+			<port name="p1"/>
+			<port name="p2"/>
+		</node>
+		<node id="n13">
+			<data key="d0">16</data>
+			<data key="d5">
+				<y:RectD X="-597.5000000000001" Y="159.75" Width="169.12155831182773" Height="172"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="#FF607D8B" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="BorrowableCriteria" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>libraryCode</sys:String>
+									<sys:String>tags</sys:String>
+									<sys:String>publisher</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>addTag(tag)</sys:String>
+									<sys:String>removeTagIfAvailable(tag)</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2"/>
+		</node>
+		<node id="n14">
+			<data key="d0">17</data>
+			<data key="d5">
+				<y:RectD X="-468.25" Y="354" Width="142.25" Height="172"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="JournalCriteria" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>publicationDate</sys:String>
+									<sys:String>volume</sys:String>
+									<sys:String>title</sys:String>
+									<sys:String>issue</sys:String>
+									<sys:String>field</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n15">
+			<data key="d0">18</data>
+			<data key="d5">
+				<y:RectD X="-315.7547805427155" Y="145.625" Width="131.3337207169842" Height="172"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="UserCriteria" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>username</sys:String>
+									<sys:String>firstName</sys:String>
+									<sys:String>lastName</sys:String>
+									<sys:String>phoneNumber</sys:String>
+									<sys:String>email</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n16">
+			<data key="d0">19</data>
+			<data key="d5">
+				<y:RectD X="393.5" Y="551.625" Width="125" Height="220"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Transaction" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>borrower</sys:String>
+									<sys:String>dateOfIssuance</sys:String>
+									<sys:String>dueDate</sys:String>
+									<sys:String>status</sys:String>
+									<sys:String>borrowedItems</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>setStatus(status)</sys:String>
+									<sys:String>calculateFine()</sys:String>
+									<sys:String>getItems()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+		</node>
+		<node id="n17">
+			<data key="d0">20</data>
+			<data key="d5">
+				<y:RectD X="393.5" Y="358.875" Width="125" Height="156"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="BorrowedItem" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>item</sys:String>
+									<sys:String>isReturned</sys:String>
+									<sys:String>transaction</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>return()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+		</node>
+		<node id="n18">
+			<data key="d0">21</data>
+			<data key="d5">
+				<y:RectD X="-190.75" Y="-395" Width="476" Height="172"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="DatabaseAdapter" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>instance</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>connect()</sys:String>
+									<sys:String>executeQuery(query)</sys:String>
+									<sys:String>executeNonQuery(query)</sys:String>
+									<sys:String>getInstance()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n19">
+			<data key="d0">22</data>
+			<data key="d5">
+				<y:RectD X="782.2620395269489" Y="265" Width="125" Height="236"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="abstract" constraint="" className="BorrowableItem" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>catalogue</sys:String>
+									<sys:String>libraryCode</sys:String>
+									<sys:String>tags</sys:String>
+									<sys:String>publisher</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>borrow()</sys:String>
+									<sys:String>hold()</sys:String>
+									<sys:String>return()</sys:String>
+									<sys:String>getLocation()</sys:String>
+									<sys:String>isAvailable()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2"/>
+		</node>
+		<node id="n20">
+			<data key="d0">23</data>
+			<data key="d5">
+				<y:RectD X="307.75" Y="-56.75" Width="201.49983259033235" Height="140"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="CatalogueDatabaseMediator" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>databaseFacade</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>incrementCatalogue(catalogue)</sys:String>
+									<sys:String>decrementCatalogue(catalogue)</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+		</node>
+		<node id="n21">
+			<data key="d0">24</data>
+			<data key="d5">
+				<y:RectD X="-724.75" Y="548.25" Width="126.7430444274731" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="TextbookCriteria" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>subjectName</sys:String>
+									<sys:String>subjectCode</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n22">
+			<data key="d0">25</data>
+			<data key="d5">
+				<y:RectD X="-558.5" Y="548.25" Width="142.25" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="ReferenceBookCriteria" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>field</sys:String>
+									<sys:String>type</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n23">
+			<data key="d0">26</data>
+			<data key="d5">
+				<y:RectD X="-355.5" Y="-187.25" Width="142.25" Height="124.25"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 5}" highlightFill="{y:GraphMLReference 6}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="SQLGenerator" attributesOpen="false" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object"/>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>generate(criteria)</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+		</node>
+		<node id="n24">
+			<data key="d0">27</data>
+			<data key="d5">
+				<y:RectD X="-597.5" Y="-229" Width="125" Height="124"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 5}" highlightFill="{y:GraphMLReference 6}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="SQLCommand" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>command</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>getCommand()</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<edge id="e0" source="n1" target="n4" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="BLACK" lineCap="SQUARE" dashStyle="Dash"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="WHITE" cropLength="1"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="NONE" stroke="#FF000000" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e1" source="n0" target="n4" sourceport="p0" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="BLACK" lineCap="SQUARE" dashStyle="Dash"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="WHITE" cropLength="1"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="NONE" stroke="#FF000000" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e2" source="n4" target="n3" sourceport="p2" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle stroke="#FF000000">
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="WHITE" cropLength="1"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="NONE" stroke="#FF000000" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e3" source="n2" target="n3" sourceport="p0" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="BLACK" lineCap="SQUARE" dashStyle="Dash"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="WHITE" cropLength="1"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="NONE" stroke="#FF000000" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e4" source="n13" target="n12" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle stroke="#FF000000" sourceArrow="{y:GraphMLReference 7}"/>
+			</data>
+		</edge>
+		<edge id="e5" source="n11" target="n13" sourceport="p0" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 13}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" lineCap="SQUARE" dashStyle="Dash"/>
+					</yjs:PolylineEdgeStyle.stroke>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e6" source="n13" target="n14" sourceport="p2" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle stroke="#FF000000" sourceArrow="{y:GraphMLReference 7}"/>
+			</data>
+		</edge>
+		<edge id="e7" source="n11" target="n15" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="11"/>
+			</data>
+		</edge>
+		<edge id="e8" source="n16" target="n17" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 8}">
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="DIAMOND" stroke="{y:GraphMLReference 8}" fill="BLACK"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e9" source="n16" target="n4" sourceport="p1" targetport="p3">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="10"/>
+			</data>
+		</edge>
+		<edge id="e10" source="n10" target="n18" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="10"/>
+			</data>
+		</edge>
+		<edge id="e11" source="n3" target="n10" sourceport="p2" targetport="p1">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="10"/>
+			</data>
+		</edge>
+		<edge id="e12" source="n10" target="n11" sourceport="p2" targetport="p2">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="10"/>
+			</data>
+		</edge>
+		<edge id="e13" source="n9" target="n19" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 8}">
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="DIAMOND" stroke="{y:GraphMLReference 8}" fill="#FFFFFFFF"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e14" source="n5" target="n7" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="11"/>
+			</data>
+		</edge>
+		<edge id="e15" source="n5" target="n6" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="11"/>
+			</data>
+		</edge>
+		<edge id="e16" source="n9" target="n20" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="10"/>
+			</data>
+		</edge>
+		<edge id="e17" source="n20" target="n10" sourceport="p1" targetport="p3">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="10"/>
+			</data>
+		</edge>
+		<edge id="e18" source="n12" target="n22" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="14"/>
+			</data>
+		</edge>
+		<edge id="e19" source="n12" target="n21" sourceport="p2" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="14"/>
+			</data>
+		</edge>
+		<edge id="e20" source="n17" target="n4" sourceport="p1" targetport="p4">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="10"/>
+			</data>
+		</edge>
+		<edge id="e21" source="n19" target="n5" sourceport="p1" targetport="p2">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="14"/>
+			</data>
+		</edge>
+		<edge id="e22" source="n19" target="n8" sourceport="p2" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="11"/>
+			</data>
+		</edge>
+		<edge id="e23" source="n23" target="n24" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="16"/>
+			</data>
+		</edge>
+		<edge id="e24" source="n10" target="n23" sourceport="p4" targetport="p1">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="16"/>
+			</data>
+		</edge>
+	</graph>
+</graphml>
